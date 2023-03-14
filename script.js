@@ -32,7 +32,7 @@ const checkInputs =() => {
 
        if(emailValue === '')
        {
-          setError(email, 'Enter a Valid Email');
+          setError(email, 'Email Cannot be Blank');
        }
    
       else  
